@@ -35,8 +35,8 @@ int main(){
     int Vi[165],Wi[165];
     int x,ch;
     clock_t starttime,endtime;
-	FILE *wr=fopen("C:\\TURBOC3\\BIN\\project\\knasp_output.txt","w");
-	FILE *fp=fopen("C:\\TURBOC3\\BIN\\project\\knasp_input.txt","r");
+	FILE *wr=fopen("knasp_output.txt","w");
+	FILE *fp=fopen("knasp_input.txt","r");
    //clrscr();
     printf("Code by utsav vachhani(uv)");
     printf("\nCode of 0/1 Knapsack Problem using Dynamic Programming");
